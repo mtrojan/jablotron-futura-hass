@@ -1,0 +1,147 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Jablotron Futura",
+        "description": "Nakonfigurujte jednotku Jablotron Futura",
+        "data": {
+          "host": "IP adresa",
+          "port": "Port",
+          "slave_id": "Slave ID", 
+          "name": "Název"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Nepodařilo se připojit",
+      "invalid_auth": "Neplatné ověření",
+      "unknown": "Neočekávaná chyba"
+    },
+    "abort": {
+      "already_configured": "Zařízení je již nakonfigurováno"
+    }
+  },
+  "entity": {
+    "sensor": {
+      "temp_ambient": {
+        "name": "Teplota venkovního vzduchu"
+      },
+      "temp_fresh": {
+        "name": "Teplota dodávaného vzduchu"
+      },
+      "temp_indoor": {
+        "name": "Teplota odsávaného vzduchu"
+      },
+      "temp_waste": {
+        "name": "Teplota odpadního vzduchu"
+      },
+      "temp_external_ntc": {
+        "name": "Teplota externího NTC"
+      },
+      "humidity_ambient": {
+        "name": "Vlhkost venkovního vzduchu"
+      },
+      "humidity_fresh": {
+        "name": "Vlhkost dodávaného vzduchu"
+      },
+      "humidity_indoor": {
+        "name": "Vlhkost odsávaného vzduchu"
+      },
+      "humidity_waste": {
+        "name": "Vlhkost odpadního vzduchu"
+      },
+      "filter_wear_level": {
+        "name": "Zanesení filtrů"
+      },
+      "power_consumption": {
+        "name": "Příkon jednotky"
+      },
+      "heat_recovery": {
+        "name": "Zpětné získávání tepla"
+      },
+      "heating_power": {
+        "name": "Výkon topení"
+      },
+      "air_flow": {
+        "name": "Vzduchové množství"
+      },
+      "fan_supply_pwm": {
+        "name": "PWM přívodního ventilátoru"
+      },
+      "fan_exhaust_pwm": {
+        "name": "PWM odtahového ventilátoru"
+      },
+      "fan_supply_rpm": {
+        "name": "Otáčky přívodního ventilátoru"
+      },
+      "fan_exhaust_rpm": {
+        "name": "Otáčky odtahového ventilátoru"
+      },
+      "voltage_uin1": {
+        "name": "Napětí UIN1"
+      },
+      "voltage_uin2": {
+        "name": "Napětí UIN2"
+      },
+      "battery_voltage": {
+        "name": "Napětí záložní baterie"
+      }
+    },
+    "select": {
+      "ventilation_level": {
+        "name": "Výkon větrání",
+        "state": {
+          "off": "Vypnuto",
+          "level_1": "Úroveň 1",
+          "level_2": "Úroveň 2",
+          "level_3": "Úroveň 3", 
+          "level_4": "Úroveň 4",
+          "level_5": "Úroveň 5",
+          "auto": "Automatický"
+        }
+      }
+    },
+    "switch": {
+      "time_program_enable": {
+        "name": "Časový program"
+      },
+      "antiradon_enable": {
+        "name": "Protiradonová ochrana"
+      },
+      "bypass_enable": {
+        "name": "Bypass"
+      },
+      "heating_enable": {
+        "name": "Topení"
+      },
+      "cooling_enable": {
+        "name": "Chlazení"
+      },
+      "comfort_enable": {
+        "name": "Komfortní řízení"
+      }
+    },
+    "number": {
+      "boost_time": {
+        "name": "Čas Boost"
+      },
+      "circulation_time": {
+        "name": "Čas cirkulace"
+      },
+      "overpressure_time": {
+        "name": "Čas přetlaku"
+      },
+      "night_time": {
+        "name": "Čas nočního režimu"
+      },
+      "party_time": {
+        "name": "Čas party režimu"
+      }
+    },
+    "climate": {
+      "futura_climate": {
+        "name": "Klimatizace Futura"
+      }
+    }
+  }
+}
