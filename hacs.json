@@ -1,0 +1,10 @@
+# =============================================================================
+# hacs.json - HACS Configuration
+# =============================================================================
+{
+  "name": "Jablotron Futura",
+  "hacs": "1.6.0",
+  "domains": ["climate", "sensor", "switch", "select", "number"],
+  "iot_class": "Local Polling",
+  "homeassistant": "2023.8.0"
+}
