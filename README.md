@@ -51,14 +51,14 @@ Custom integration for Jablotron Futura ventilation units with heat recovery, pr
 2. Go to "Integrations"
 3. Click the three dots in the top right corner
 4. Select "Custom repositories"
-5. Add this repository URL: `https://github.com/your_username/jablotron_futura`
+5. Add this repository URL: `https://github.com/mtrojan/jablotron-futura-hass`
 6. Select "Integration" as the category
 7. Click "Add"
 8. Search for "Jablotron Futura" and install
 
 ### Manual Installation
 
-1. Download the latest release from the [releases page](https://github.com/your_username/jablotron_futura/releases)
+1. Download the latest release from the [releases page](https://github.com/mtrojan/jablotron-futura-hass/releases)
 2. Extract the `jablotron_futura` folder to your `custom_components` directory
 3. Restart Home Assistant
 
