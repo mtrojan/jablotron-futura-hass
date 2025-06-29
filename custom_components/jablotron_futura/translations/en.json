@@ -1,0 +1,147 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Jablotron Futura",
+        "description": "Configure your Jablotron Futura ventilation unit",
+        "data": {
+          "host": "IP Address",
+          "port": "Port",
+          "slave_id": "Slave ID",
+          "name": "Name"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect",
+      "invalid_auth": "Invalid authentication",
+      "unknown": "Unexpected error"
+    },
+    "abort": {
+      "already_configured": "Device is already configured"
+    }
+  },
+  "entity": {
+    "sensor": {
+      "temp_ambient": {
+        "name": "Outdoor Air Temperature"
+      },
+      "temp_fresh": {
+        "name": "Supply Air Temperature"
+      },
+      "temp_indoor": {
+        "name": "Extract Air Temperature"
+      },
+      "temp_waste": {
+        "name": "Exhaust Air Temperature"
+      },
+      "temp_external_ntc": {
+        "name": "External NTC Temperature"
+      },
+      "humidity_ambient": {
+        "name": "Outdoor Air Humidity"
+      },
+      "humidity_fresh": {
+        "name": "Supply Air Humidity"
+      },
+      "humidity_indoor": {
+        "name": "Extract Air Humidity"
+      },
+      "humidity_waste": {
+        "name": "Exhaust Air Humidity"
+      },
+      "filter_wear_level": {
+        "name": "Filter Wear Level"
+      },
+      "power_consumption": {
+        "name": "Power Consumption"
+      },
+      "heat_recovery": {
+        "name": "Heat Recovery"
+      },
+      "heating_power": {
+        "name": "Heating Power"
+      },
+      "air_flow": {
+        "name": "Air Flow"
+      },
+      "fan_supply_pwm": {
+        "name": "Supply Fan PWM"
+      },
+      "fan_exhaust_pwm": {
+        "name": "Exhaust Fan PWM"
+      },
+      "fan_supply_rpm": {
+        "name": "Supply Fan RPM"
+      },
+      "fan_exhaust_rpm": {
+        "name": "Exhaust Fan RPM"
+      },
+      "voltage_uin1": {
+        "name": "UIN1 Voltage"
+      },
+      "voltage_uin2": {
+        "name": "UIN2 Voltage"
+      },
+      "battery_voltage": {
+        "name": "RTC Battery Voltage"
+      }
+    },
+    "select": {
+      "ventilation_level": {
+        "name": "Ventilation Level",
+        "state": {
+          "off": "Off",
+          "level_1": "Level 1",
+          "level_2": "Level 2", 
+          "level_3": "Level 3",
+          "level_4": "Level 4",
+          "level_5": "Level 5",
+          "auto": "Auto"
+        }
+      }
+    },
+    "switch": {
+      "time_program_enable": {
+        "name": "Time Program"
+      },
+      "antiradon_enable": {
+        "name": "Anti-radon Protection"
+      },
+      "bypass_enable": {
+        "name": "Bypass"
+      },
+      "heating_enable": {
+        "name": "Heating"
+      },
+      "cooling_enable": {
+        "name": "Cooling"
+      },
+      "comfort_enable": {
+        "name": "Comfort Control"
+      }
+    },
+    "number": {
+      "boost_time": {
+        "name": "Boost Time"
+      },
+      "circulation_time": {
+        "name": "Circulation Time"
+      },
+      "overpressure_time": {
+        "name": "Overpressure Time"
+      },
+      "night_time": {
+        "name": "Night Mode Time"
+      },
+      "party_time": {
+        "name": "Party Time"
+      }
+    },
+    "climate": {
+      "futura_climate": {
+        "name": "Futura Climate"
+      }
+    }
+  }
+}
